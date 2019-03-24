@@ -1,5 +1,5 @@
 <?php
-    $con=mysqli_connect("mysql4.000webhost.com","a3460617_parkit","password","a3460617_parkit");
+    $con=mysqli_connect("mysql4.000webhost.com","a3460617_parkit","thePassword","a3460617_parkit");
       
 
     $statement = mysqli_prepare($con, "SELECT title, snippet, position FROM pins");
