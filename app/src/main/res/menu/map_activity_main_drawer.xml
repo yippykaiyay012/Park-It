@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group >
+
+        <item
+            android:id="@+id/nav_search_location"
+            android:icon="@mipmap/ic_menu_search"
+            android:title="Search Location" />
+        <item
+            android:id="@+id/nav_park_car"
+            android:icon="@mipmap/ic_menu_park"
+            android:title="Park-It!" />
+        <item
+            android:id="@+id/parking_timer"
+            android:icon="@mipmap/ic_parking_timer"
+            android:title="Park-it! Timer" />
+        <item
+            android:id="@+id/nav_show_parking"
+            android:icon="@mipmap/ic_parking"
+            android:title="Refresh Parking" />
+
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Map Type">
+            <menu>
+                <item
+                    android:id="@+id/nav_normal_map"
+                    android:icon="@mipmap/ic_menu_map"
+                    android:title="Normal"
+                    android:checkable="true" />
+                <item
+                    android:id="@+id/nav_satellite_map"
+                    android:icon="@mipmap/ic_menu_satellite"
+                    android:title="Satellite"
+                    android:checkable="true"/>
+            </menu>
+        </item>
+
+    </group>
+
+    <item android:title="Other Options">
+        <menu>
+            <item
+                android:id="@+id/nav_help_about"
+                android:icon="@mipmap/ic_menu_about"
+                android:title="About / How To" />
+
+            <item
+                android:id="@+id/nav_sign_out"
+                android:icon="@mipmap/ic_menu_signout"
+                android:title="Sign Out" />
+        </menu>
+    </item>
+
+</menu>
+
+    <!--
+
+    originally next to first <group    -here- >
+
+    android:checkableBehavior="single"-->

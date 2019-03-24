@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.yippykaiyay.parkit.Login"
+    android:background="#3F51B5">
+
+
+
+    <!-- Stop auto focussing the EditText -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+    </LinearLayout>
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:id="@+id/titleImage"
+                android:src="@drawable/titlelogin"
+                android:layout_marginTop="5dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/imageView"
+                android:src="@mipmap/ic_mascot"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"/>
+
+
+
+            <EditText
+                android:id="@+id/usernameText"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"
+                android:hint="Email Address"
+                android:inputType="textEmailAddress"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:gravity="center" />
+
+
+
+            <EditText
+                android:id="@+id/passwordText"
+                android:layout_width="match_parent"
+                android:inputType="textPassword"
+                android:layout_marginBottom="10dp"
+                android:hint="Password"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:gravity="center" />
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="115dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/tvRegisterLink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Register Here"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/tvTermsConditions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="By logging in you accept these terms"
+                android:layout_marginTop="120dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

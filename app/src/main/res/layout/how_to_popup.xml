@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/search_popup"
+    android:padding="10dp">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="About"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Park-it! is an application aimed at solving all your parking needs. This app can show where parking is available and if that parking comes with restrictions. Found your space? Use the “Park-it!” feature to save your current location so you can easily find it again later. You can also optionally set a timer if the location has a time limited stay. Found parking that’s not on the map? Add it and help the community! \n"
+                android:id="@+id/textView2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="How To"
+                android:id="@+id/textView4"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Search"
+                android:id="@+id/textView6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Use the nav drawer and select search. Type in a place or location and click search. The map will navigate to that location if valid."
+                android:id="@+id/textView5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="\nPark-it!"
+                android:id="@+id/textView7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hit park-it! And you will be asked if you want to save your current location. Hit Park-it! Again. You can then optionally set a timer, use the slider or the “+ / - “  buttons to adjust time."
+                android:id="@+id/textView8" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="\nAdding"
+                android:id="@+id/textView9" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Navigate to the parking location on the map (Satellite mode recommended). Long press on that location. You may be prompted to zoom in first for accuracy reasons. Long press again as accurately as possible and fill out the required fields. Please state whether the location is free or if charges/ time limits apply."
+                android:id="@+id/textView10" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+<!--
+
+<ImageView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/imageView2"
+android:src="@drawable/infoscreen"/>-->
